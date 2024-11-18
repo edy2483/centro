@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form input, form select, form textarea, form button {
+    padding: 8px 12px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.btn-editar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+.btn-editar:hover {
+    background-color: #0056b3;
+}
+
+.btn-eliminar {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+}
+
+.btn-eliminar:hover {
+    background-color: #d32f2f;
+}
+
+input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 100%;
+    max-width: 300px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="number"]:focus, select:focus, textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    width: 300px;
+}
